@@ -9,8 +9,8 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		logger.log(Level.INFO, "value is {0}", "Hello World program started.");
 
-		for (int counter = 0; counter < 5; counter++) {
-			logger.log(Level.INFO, "Values are {0}" + counter);
+		for (int counter = 0; counter < 5; counter++){
+			logger.log(Level.INFO, "Values are " + counter);
 
 		}
 
