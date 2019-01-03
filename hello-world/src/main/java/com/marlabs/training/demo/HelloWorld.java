@@ -1,31 +1,22 @@
+
 package com.marlabs.training.demo;
 
 import java.util.logging.*;
 
-//This is a demo session.
 
-/**
- * @author CVRAMAN-482
- *
- */
 public class HelloWorld {
 
-	/**
-	 * Logger
-	 */
-	public static final Logger logger = Logger.getLogger("HelloWorld.class");
+	int a = 0;
+	public static final int INPUT = 3;
+	static Logger logger = Logger.getLogger("HelloWorld.class");
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		logger.log(Level.INFO, "Hello World program started.");
+	public static final void main(String[] args) {
+		logger.info("Hello World program started.");
 
-		for (int ctr = 0; ctr < 5; ctr++) {
+		for (int INPUT = 0; INPUT < 5; INPUT++) {
+			logger.log(Level.INFO, "Values Are {0}", INPUT);
 
-			logger.log(Level.INFO, "Value is {0}", ctr);
-
-			logger.log(Level.INFO, "This is a test by Ashis.");
+			logger.info("changed by Ranadip");
 
 		}
 
