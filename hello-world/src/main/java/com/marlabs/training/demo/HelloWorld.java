@@ -1,12 +1,15 @@
 package com.marlabs.training.demo;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
+
+
+import java.util.logging.*;
 
 /**
- * @author CVRAMAN-535
- *
- */
+ * @author CVRAMAN-484
+*/
+//This is a demo session.
+
 public class HelloWorld {
 
 	/**
