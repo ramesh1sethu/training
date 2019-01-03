@@ -1,6 +1,5 @@
 package com.marlabs.training.demo;
 
-
 import java.util.logging.*;
 
 //This is a demo session.
