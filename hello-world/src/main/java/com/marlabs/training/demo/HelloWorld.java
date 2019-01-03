@@ -4,7 +4,6 @@ import java.util.logging.*;
 
 public class HelloWorld {
 
-	public static final int INPUT = 3;
 	static Logger logger = Logger.getLogger("myLogger");
 
 	public static void main(String[] args) {
