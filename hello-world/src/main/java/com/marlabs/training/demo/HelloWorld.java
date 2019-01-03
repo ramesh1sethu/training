@@ -2,6 +2,7 @@ package com.marlabs.training.demo;
 
 import java.util.logging.*;
 
+//This is a demo session.
 public class HelloWorld {
 
 	public static final Logger logger = Logger.getLogger("HelloWorld.class");
