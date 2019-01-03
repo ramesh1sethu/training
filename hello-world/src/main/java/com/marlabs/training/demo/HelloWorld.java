@@ -3,6 +3,7 @@ package com.marlabs.training.demo;
 import java.util.logging.*;
 
 //This is a demo session.
+
 /**
  * @author CVRAMAN-482
  *
@@ -25,6 +26,7 @@ public class HelloWorld {
 			logger.log(Level.INFO, "Value is {0}", ctr);
 
 			logger.log(Level.INFO, "This is a test by Ashis.");
+
 		}
 
 	}
