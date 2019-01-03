@@ -3,7 +3,6 @@ package com.marlabs.training.demo;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-//This is a demo session.
 /**
  * @author CVRAMAN-535
  *
