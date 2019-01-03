@@ -3,6 +3,7 @@ package com.marlabs.training.demo;
 
 import java.util.logging.*;
 
+
 public class HelloWorld {
 
 	int a = 0;
