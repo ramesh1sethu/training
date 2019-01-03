@@ -8,8 +8,10 @@ public class HelloWorld {
 
 		for (int b = 0; b<5; b++) {
 			logger.log(Level.INFO,"Values are: {0}",b);
+			logger.log(Level.INFO,"Values are: {0}",b);
 		}
-
+		
+		
 	}
 
 }
