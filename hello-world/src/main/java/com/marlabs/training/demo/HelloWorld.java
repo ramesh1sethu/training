@@ -6,7 +6,7 @@ public class HelloWorld {
 
 	int a = 0;
 	public static final int INPUT = 3;
-	static Logger logger = Logger.getLogger("myLogger");
+	static Logger logger = Logger.getLogger("HelloWorld.class");
 
 	public static final void main(String[] args) {
 		logger.info("Hello World program started.");
