@@ -1,16 +1,24 @@
 package com.marlabs.training.demo;
+
 import java.util.logging.*;
 
+/**
+ * @author CVRAMAN-484
+ *
+ */
 public class HelloWorld {
 
-	int a = 0;
-	public int b = 3;
-	//	static Logger logger = Logger.getLogger("myLogger");
-	public static void main(String[] args) {
-		System.out.println("Hello World program started.");
+	static Logger logger = Logger.getLogger("HelloWorld");
 
-		for (int b = 0; b<5; b++) {
-			System.out.println("Values are " + b);
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		logger.log(Level.INFO, "Hello World program started.");
+
+		for (int counter = 0; counter < 5; counter++) {
+			logger.log(Level.INFO, "Values is {0}", counter);
+			logger.log(Level.INFO, "Hello World program Ended.");
 		}
 
 	}
