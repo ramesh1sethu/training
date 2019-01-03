@@ -24,7 +24,7 @@ public class HelloWorld {
 
 			logger.log(Level.INFO, "Value is {0}", ctr);
 
-			logger.log(Level.INFO, "This is a test by Ashis.");
+			logger.log(Level.INFO, "This is a test by Narayan.");
 		}
 
 	}
