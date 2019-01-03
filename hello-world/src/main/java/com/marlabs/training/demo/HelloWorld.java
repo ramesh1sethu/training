@@ -1,11 +1,19 @@
 package com.marlabs.training.demo;
 
-import java.util.logging.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
+/**
+ * @author CVRAMAN-535
+ *
+ */
 public class HelloWorld {
 
 	static Logger logger = Logger.getLogger("myLogger");
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		logger.info("Hello World program started.");
 
